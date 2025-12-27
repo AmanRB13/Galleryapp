@@ -22,7 +22,7 @@ class _GalleryappState extends State<Galleryapp> {
   fetchapi() async {
     final response = await http.get(
       Uri.parse(
-        'https://api.unsplash.com/photos/random?count=10&query=dogs&client_id=RHl2098jZh2NOrVPnw5cm8yJUj6WaO7OLYP1CNk-HzQ',
+        'https://api.unsplash.com/photos/random?count=10&query=dogs&client_id,
       ),
     );
 
